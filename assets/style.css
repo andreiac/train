@@ -1,0 +1,36 @@
+.jumbotron-fluid {
+    font-weight: bold !important;
+background-color: #21325A;
+color: white;
+text-align: center;
+font-family: 'Lalezar', cursive;  }
+
+body {
+    margin: 0px 10px 0px 10px;
+}
+#tableRow{
+    border-bottom: solid .5px #DEE2E6;
+}
+
+#searchParameters{
+    background-color: #21325A;
+color: white;
+}
+
+#buttonsRow{
+    margin: 5px;
+}
+form{
+    padding: 10px;
+}
+
+.card{
+    border: 2px slategray solid;
+}
+
+.btn-secondary{
+    margin: 3px;
+    padding-bottom: 10px;
+vertical-align: middle;
+}
+
