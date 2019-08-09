@@ -2,10 +2,6 @@ setTimeout(function(){
     window.location.reload(1);
  }, 60000);
 
-function appendToTable(train, destination, frequency, nextArrival, minutesAway) {
-    $("#currentTrains").prepend("<tr id='tableRow'><td>" + train + "</td><td>" + destination + "</td><td>" + frequency + "</td><td>" + nextArrival + "</td><td>" + minutesAway + "</td></td></tr>");
-
-}
 
 var firebaseConfig = {
     apiKey: "AIzaSyCrbBnusWngyXrq36a5HVkVrllcxSZrmzU",
@@ -66,9 +62,6 @@ database.ref().on("child_added", function (snapshot) {
 
 
     $("#currentTrains").append("<tr><td>" + train + "</td><td>" + destination + "</td><td>" + frequency + "</td><td>" + arrivaltime + "</td><td>" + minutesAway + "</td>")
-
-
-
 
     // Create Error Handling
 }, function (errorObject) {
